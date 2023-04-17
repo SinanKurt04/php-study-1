@@ -20,9 +20,20 @@
     <section class="container">
         <h4 class="center">Add a User</h4>
         <form class="white" action="add.php" method="POST">
-            <label for="email-input">Email</label>
-            <input type="email" id="email-input" name="email">
-            <input type="submit" name="submit" value="submit" class="btn brand z-depth-0">
+            <div name="email input">
+                <label for="email-input">Email</label>
+                <input type="email" id="email-input" name="email">
+            </div>
+
+            <div name="password input">
+                <label for="password-input">Password</label>
+                <input type="password" id="password-input" name="password">
+            </div>
+
+            <div name="submit button">
+                <input type="submit" name="submit" value="submit" class="btn brand z-depth-0">
+            </div>
+
         </form>
     </section>
 </body>
